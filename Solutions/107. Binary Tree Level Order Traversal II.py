@@ -10,6 +10,9 @@ class Solution(object):
         :type root: TreeNode
         :rtype: List[List[int]]
         """
+        # Time  Complexity -> O(n)
+        # Space Complexity -> O(n)
+
         if not root:
             return None
         res = []

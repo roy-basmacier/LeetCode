@@ -10,6 +10,8 @@ class Solution(object):
         :type root: TreeNode
         :rtype: List[List[int]]
         """
+        # Time  Complexity -> O(n)
+        # Space Complexity -> O(n)
         if not root:
             return []
         queue = [(root, 0)]
@@ -21,7 +23,7 @@ class Solution(object):
                 res.append([])
             res[d].append(node.val)
             
-            # add to wueu from right to left
+            # add to queue from right to left
             if node.right:
                 queue.append((node.right,d+1))
             if node.left:

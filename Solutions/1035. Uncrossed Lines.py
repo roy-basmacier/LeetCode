@@ -5,6 +5,9 @@ class Solution(object):
         :type B: List[int]
         :rtype: int
         """
+        # Time  Complexity -> O(nm)
+        # Space Complexity -> O(nm)
+
         # dynamic programming
         #Input: A = [1,4,2], B = [1,2,4]
         #   1 4 2

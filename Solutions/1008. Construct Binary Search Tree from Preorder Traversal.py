@@ -11,6 +11,8 @@ class Solution(object):
         :type preorder: List[int]
         :rtype: TreeNode
         """
+        # Time  Complexity -> O(n)
+        # Space Complexity -> O(n)
         self.index = 0
         def helper(bound):
             if self.index >= len(preorder) or preorder[self.index] > bound:

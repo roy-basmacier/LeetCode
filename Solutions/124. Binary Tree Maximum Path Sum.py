@@ -10,6 +10,9 @@ class Solution(object):
         :type root: TreeNode
         :rtype: int
         """
+        # Time  Complexity -> O(n)
+        # Space Complexity -> O(n)
+
         if not root.left and not root.right:
             return root.val
         def helper(node):

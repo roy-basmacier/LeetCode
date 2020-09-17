@@ -4,6 +4,8 @@ class Solution(object):
         :type costs: List[List[int]]
         :rtype: int
         """
+        # Time  Complexity -> O(n log(n))
+        # Space Complexity -> O(n)
         n = len(costs)
         costs = sorted(costs, key= lambda x: x[0] - x[1])
         res = 0

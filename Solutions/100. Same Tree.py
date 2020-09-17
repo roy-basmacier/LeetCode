@@ -11,6 +11,8 @@ class Solution(object):
         :type q: TreeNode
         :rtype: bool
         """
+        # Time  Complexity -> O(n)
+        # Space Complexity -> O(n)
         if not p and not q:
             return True
         if p and q:

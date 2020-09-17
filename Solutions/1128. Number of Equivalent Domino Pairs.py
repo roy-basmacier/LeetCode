@@ -1,5 +1,7 @@
 class Solution:
     def numEquivDominoPairs(self, dominoes: List[List[int]]) -> int:
+        # Time  Complexity -> O(n)
+        # Space Complexity -> O(n)
         d = {}
         cnt = 0
         for dom in dominoes:

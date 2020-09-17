@@ -1,6 +1,8 @@
 class Solution:
         
     def tribonacci(self, n: int) -> int:
+        # Time  Complexity -> O(n)
+        # Space Complexity -> O(1)
         if n == 0:
             return 0
         if n < 3:

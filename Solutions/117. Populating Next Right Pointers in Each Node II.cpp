@@ -24,6 +24,8 @@ public:
         helper(root, nullptr);
         return root;
     }
+    // Time  Complexity -> O(n^2)
+    // Space Complexity -> O(n)
     
     void helper(Node* root, Node* parent)
     {

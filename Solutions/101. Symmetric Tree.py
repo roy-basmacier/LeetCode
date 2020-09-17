@@ -7,6 +7,8 @@
 
 class Solution:
     def isSymmetric(self, root: TreeNode) -> bool:
+        # Time  Complexity -> O(n)
+        # Space Complexity -> O(n)
         def helper(node1, node2):
             if not node1 and not node2:
                 return True

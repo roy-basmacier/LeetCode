@@ -4,6 +4,9 @@ class Solution(object):
         :type rowIndex: int
         :rtype: List[int]
         """
+        # k -> rowIndex
+        # Time  Complexity -> O(k)
+        # Space Complexity -> O(k)
         res = [0 for _ in range(rowIndex+1)]
         res[0] = 1
         for i in range(rowIndex):

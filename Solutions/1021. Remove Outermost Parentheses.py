@@ -4,6 +4,8 @@ class Solution(object):
         :type S: str
         :rtype: str
         """
+        # Time  Complexity -> O(n)
+        # Space Complexity -> O(n)
         count = 0
         res = ''
         for i in range(1, len(S)):

@@ -4,6 +4,9 @@ class Solution(object):
         :type stones: List[int]
         :rtype: int
         """
+        # Time  Complexity -> O(n logn)
+        # Space Complexity -> O(n)
+
         stones = [-x for x in stones]
         heapq.heapify(stones)
         while len(stones) > 1:

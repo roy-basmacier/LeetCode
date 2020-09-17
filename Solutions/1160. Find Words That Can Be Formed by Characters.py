@@ -1,5 +1,7 @@
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
+        # Time  Complexity -> O(n)
+        # Space Complexity -> O(n)
         freq = {}
         for ch in chars:
             if ch in freq:

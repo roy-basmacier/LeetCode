@@ -7,6 +7,9 @@
 
 class Solution:
     def bstToGst(self, root: TreeNode) -> TreeNode:
+        # Time  Complexity -> O(n)
+        # Space Complexity -> O(n)
+
         def helper (node:TreeNode, maxval):
             if node:
                 r = helper(node.right, maxval)

@@ -5,6 +5,9 @@ class Solution(object):
         :type text2: str
         :rtype: int
         """
+        # Time  Complexity -> O(nm)
+        # Space Complexity -> O(nm)
+
         m = len(text1)
         n = len(text2)
         # dynamic programming

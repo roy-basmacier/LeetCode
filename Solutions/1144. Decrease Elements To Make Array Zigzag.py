@@ -1,5 +1,8 @@
 class Solution:
     def movesToMakeZigzag(self, nums: List[int]) -> int:
+        # Time  Complexity -> O(n)
+        # Space Complexity -> O(n)
+
         # copying the list to use it after modifying it
         orj = nums.copy()
         even = 0

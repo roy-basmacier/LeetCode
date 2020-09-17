@@ -11,6 +11,10 @@ class Solution(object):
         :type postorder: List[int]
         :rtype: TreeNode
         """
+        # n -> number of vertices
+        # Time  Complexity -> O(n)
+        # Space Complexity -> O(n)
+
         # inorder -> left print right
         # postorder -> left right print
         inorder_map = {}

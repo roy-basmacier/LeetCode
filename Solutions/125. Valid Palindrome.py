@@ -4,6 +4,9 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
+        # Time  Complexity -> O(n)
+        # Space Complexity -> O(1)
+
         l = 0 
         r = len(s)-1
         s = s.lower()
